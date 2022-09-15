@@ -20,7 +20,7 @@
 		<sonar.projectKey>calculator</sonar.projectKey>
 		<sonar.language>java</sonar.language>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>paste your token here</sonar.login>
+		<sonar.login>sqp_bc5b15b9e30d98eb215feb17ab908d5dc36d77b6</sonar.login>
 
 	</properties>
 
@@ -127,7 +127,7 @@
 		<repository>
 			<id>artifactory</id>
 			<name>Calc_Dev_Snapshot</name>
-			<url>http://localhost:8081/artifactory/Calc_Dev_Snapshot</url>
+			<url>http://localhost:8082/artifactory/Calc_Dev_Snapshot</url>
 		</repository>
 	</distributionManagement>
 </project>
