@@ -28,8 +28,8 @@ public class CalculatorServlet extends HttpServlet {
     	}
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		String n1 = request.getParameter("no1");
-		String n2 = request.getParameter("no2");
+		String n1 = request.getParameter("num1");
+		String n2 = request.getParameter("num2");
 		int opt = Integer.parseInt(request.getParameter("opt"));
 		
 		switch(opt) {
