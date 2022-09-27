@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class CalculatorServlet
  */
+@WebServlet("/CalcServlet") //added
 public class CalculatorServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	double res;
