@@ -30,7 +30,7 @@ public class CalculatorServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		String n1 = request.getParameter("num1");
 		String n2 = request.getParameter("num2");
-		int opt = Integer.parseInt(request.getParameter("opt"));
+		int opt = Integer.parseInt(request.getParameter("operations"));
 		
 		switch(opt) {
 		case 1 : 
